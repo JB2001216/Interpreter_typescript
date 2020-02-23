@@ -1,7 +1,7 @@
 const GITHUB_API = 'https://api.github.com';
 
 const MAIN_FILE_NAME = 'main.lox';
-const DEFAULT_DESCRIPTION = `Created by https://pmdartus.github.io/tlox/`;
+const DEFAULT_DESCRIPTION = `Created Interpreter_typescript`;
 
 export async function saveGist(src: string) {
     const payload = {
